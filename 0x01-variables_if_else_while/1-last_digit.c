@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - entry point
  * description: tjis program gives a random number and check its last digit
  * return: 0 (success)
