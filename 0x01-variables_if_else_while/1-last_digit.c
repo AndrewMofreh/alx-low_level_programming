@@ -1,15 +1,19 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- *Main - entry point for the program
- *description: This program generates a random number and determines the last digit of the number
- *return 0 (success)
-*/
+
+/*
+ * main - entry point
+ * description: tjis program gives a random number and check its last digit
+ * return: 0 (success)
+ */
+
 int main(void)
+
 {
 	int n, digit;
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	digit = n % 10;
 	if (digit > 5)
