@@ -2,17 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-*
-* main - Entry point of the program
-*
-* description: false or true validation
-*
-* return 0 (success)
-*/
+/**
+ * main - Entry point of the program
+ *
+ * description: false or true validation
+ *
+ * return 0 (success)
+ */
 
 
-int main(void)
+int main()
 {
 	int n;
 
