@@ -5,7 +5,7 @@
  *
  * description: print alphabet in lowercase and uppercase
  *
- * return: always  0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
