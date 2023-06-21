@@ -1,0 +1,23 @@
+In the main source file (main.c), the _putchar function is called inside a for loop for each character of the str[] array.
+
+The for loop iterates from 0 to 7 (since ch starts from 0 and goes up to < 8). This means it will iterate through each character of the str[] array.
+
+Inside the loop, _putchar(str[ch]) is called, passing each character from the str[] array as an argument to the _putchar function.
+
+The _putchar function is defined in the _putchar.c file. It takes a character as an argument and returns an integer.
+
+In the _putchar function definition, putchar(ch) is called. The putchar function is part of the standard library and is responsible for printing a character to the standard output.
+
+The character passed as an argument to putchar(ch) will be printed to the standard output (e.g., the console).
+
+The putchar function returns an integer value that represents the character that was printed.
+
+This returned value from putchar(ch) is then returned by the _putchar function.
+
+In the main source file, the returned value from _putchar(str[ch]) is not explicitly used. It is simply called within the loop for each character, printing them one by one.
+
+After the loop, _putchar('\n') is called to print a newline character, which creates a line break.
+
+Finally, the main function returns 0, indicating successful program execution.
+
+So, in summary, the _putchar function is called within the loop to print each character from the str[] array using the putchar function. The returned value from _putchar is not used directly in this specific example, but the effect is that the characters are printed to the standard output one by one.
