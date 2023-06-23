@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdlib>
+#include <stdlib>
 
 /**
  * print_line - draws a straight line in the terminal
