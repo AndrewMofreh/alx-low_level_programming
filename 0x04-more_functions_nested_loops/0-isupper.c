@@ -2,7 +2,7 @@
 #include"main.h"
 
 /**
- * _isalpha - its for return 0 if its a lower case
+ * _isupper - its for return 0 if its a lower case
  *
  * @c: check the input of the function
  *
