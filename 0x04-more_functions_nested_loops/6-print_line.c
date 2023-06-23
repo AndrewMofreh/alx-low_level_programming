@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * print_line - draws a straight line in the terminal
@@ -7,7 +6,6 @@
  */
 void print_line(int n)
 {
-	n = abs(n);
 
 	if (n <= 0)
 	{
