@@ -2,7 +2,7 @@
 #include"main.h"
 
 /**
- * print_number  - its for return 0 if its a lower case
+ * print_numbers  - its for return 0 if its a lower case
  *
  * discription: its a function to print from 0 to 9
  *
